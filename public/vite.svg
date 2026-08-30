@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="vGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#41b883"/>
+      <stop offset="1" stop-color="#35495e"/>
+    </linearGradient>
+  </defs>
+  <!-- 外层 V -->
+  <path fill="url(#vGrad)" d="M16 24L2 4h6l8 13.5L24 4h6L16 24z"/>
+  <!-- 内层 V -->
+  <path fill="#41b883" d="M16 20.3L8.6 9h4.6l2.8 4.8L18.8 9h4.6L16 20.3z"/>
+</svg>

@@ -1,0 +1,23 @@
+{
+  "name": "vue-learning-guide",
+  "version": "1.0.0",
+  "description": "一个详尽的 Vue.js 3 学习项目，包含核心概念、组件化、路由、状态管理等完整示例",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.5",
+    "pinia": "^2.1.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.0",
+    "vite": "^5.0.0"
+  },
+  "keywords": ["vue3", "vite", "学习", "教程", "示例"],
+  "author": "Vue Learning Guide",
+  "license": "MIT"
+}
