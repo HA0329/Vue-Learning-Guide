@@ -78,7 +78,8 @@ const routes = [
 const router = createRouter({
   // 使用 HTML5 History 模式（需要服务器配置支持）
   // 另一种是 createWebHashHistory()，URL 中带 # 号
-  history: createWebHistory(),
+  // GitHub Pages 部署：base 从 vite.config.js 注入，确保子路径下路由正确匹配
+  history: createWebHistory(import.meta.env.BASE_URL),
   routes,
   // 滚动行为：切换路由时滚动到顶部
   scrollBehavior(to, from, savedPosition) {
