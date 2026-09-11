@@ -5,6 +5,7 @@ import { fileURLToPath, URL } from 'node:url'
 // Vite 配置文件
 // 文档：https://vitejs.dev/config/
 export default defineConfig({
+  base: './',
   plugins: [vue()],
   resolve: {
     alias: {
