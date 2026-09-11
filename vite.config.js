@@ -5,7 +5,9 @@ import { fileURLToPath, URL } from 'node:url'
 // Vite 配置文件
 // 文档：https://vitejs.dev/config/
 export default defineConfig({
-  base: './',
+  // GitHub Pages 部署在子路径 /Vue-Learning-Guide/ 下，必须设绝对 base
+  // 否则构建出的资源路径为 /assets/xxx.js，会去找根域名而非仓库子路径
+  base: '/Vue-Learning-Guide/',
   plugins: [vue()],
   resolve: {
     alias: {
